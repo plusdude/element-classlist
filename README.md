@@ -1,4 +1,19 @@
-element-classlist
-=================
+# About
+Implementation of classList attribute (DOMTokenList interface). Relies on **[[Array Generics | https://github.com/plusdude/array-generics]]**
 
-Polyfill for Element.classList according to DOM4 draft.
+## Examples
+```javascript
+var element = document.documentElement;
+
+// add class
+element.classList.add("root");
+
+// remove class
+element.classList.remove("root");
+
+// toggle class
+element.classList.toggle("root");
+
+// test class
+element.classList.contains("root");
+```
