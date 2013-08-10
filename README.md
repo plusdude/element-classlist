@@ -1,5 +1,5 @@
 # About
-Implementation of classList attribute (DOMTokenList interface). Relies on <a href="https://github.com/plusdude/array-generics">Array Generics</a>
+Implementation of classList attribute (<a href="http://www.w3.org/TR/dom/#domtokenlist">DOMTokenList</a> interface). Relies on <a href="https://github.com/plusdude/array-generics">Array Generics</a>
 
 ## Examples
 ```javascript
