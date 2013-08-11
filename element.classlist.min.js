@@ -2,7 +2,7 @@
  * Implementation of classList attribute (DOMTokenList interface)
  * http://www.w3.org/TR/dom/#domtokenlist
  *
- * Relies on array generics
+ * Depends on array generics
  * https://github.com/plusdude/array-generics
  *
  * Copyright (c) 2013 Alex K @plusdude
