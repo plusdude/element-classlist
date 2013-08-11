@@ -18,4 +18,5 @@ element.classList.toggle("root");
 element.classList.contains("root");
 ```
 ## Notes
-Browsers that natively supports classList does not pass all tests (at least at the moment). The provided examples works across most browsers, except Internet Explorer 7 and below.
+* Browsers that natively supports classList does not pass all tests (at least at the moment). 
+* This shim does not work in Internet Explorer versions less than 8.
