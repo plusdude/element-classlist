@@ -3,7 +3,7 @@
     "use strict";
 
     describe(".classList.item(index)", function () {
-        var element = document.body;
+        var element = document.documentElement;
 
         describe("index", function () {
             it("Not specified (throws)", function () {
@@ -24,7 +24,7 @@
     });
 
     describe(".classList.contains(token)", function () {
-        var element = document.body;
+        var element = document.documentElement;
 
         describe("token", function () {
             it("Not specified (throws)", function () {
@@ -53,7 +53,7 @@
     });
 
     describe(".classList.add(token[, tokenN..])", function () {
-        var element = document.body;
+        var element = document.documentElement;
 
         describe("token", function () {
             it("Not specified (throws)", function () {
@@ -87,7 +87,7 @@
     });
 
     describe(".classList.remove(token[, tokenN..])", function () {
-        var element = document.body;
+        var element = document.documentElement;
 
         describe("token", function () {
             it("Not specified (throws)", function () {
@@ -121,7 +121,7 @@
     });
 
     describe(".classList.toggle(token[, force])", function () {
-        var element = document.body;
+        var element = document.documentElement;
 
         describe("token", function () {
             it("Not specified (throws)", function () {
@@ -154,7 +154,7 @@
     });
 
     describe(".classList.toString()", function () {
-        var element = document.body;
+        var element = document.documentElement;
 
         it("An underlying string", function () {
             var result = element.classList.toString();
